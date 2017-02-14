@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sorveteria.eradogelo.sorveteriaeradogelo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Main -->
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Menu -->
+        <activity android:name=".MenuEstoque" android:parentActivityName=".Main">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+        <activity android:name=".MenuPedido" android:parentActivityName=".Main">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+        <activity android:name=".MenuFornecedor" android:parentActivityName=".Main">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+
+        <!-- Menu/MenuEstoque -->
+        <activity android:name=".EstAddProduto" android:parentActivityName=".MenuEstoque">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuEstoque" />
+        </activity>
+        <activity android:name=".EstVerEstoque" android:parentActivityName=".MenuEstoque">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuEstoque" />
+        </activity>
+        <activity android:name=".EstReporEstoque" android:parentActivityName=".MenuEstoque">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuEstoque" />
+        </activity>
+        <activity android:name=".EstBaixarEstoque" android:parentActivityName=".MenuEstoque">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuEstoque" />
+        </activity>
+        <activity android:name=".EstDelProduto" android:parentActivityName=".MenuEstoque">
+            <!-- Compatiilidade com a API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuEstoque" />
+        </activity>
+    </application>
+
+</manifest>

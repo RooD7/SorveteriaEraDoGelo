@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView android:id="@+id/textNomeP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText android:id="@+id/etNomeProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+    android:hint="Nome do produto" />
+
+    <TextView android:id="@+id/textQntdP"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/qntd"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText android:id="@+id/etQntdProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="number"
+        android:hint="Quantidade do produto"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton android:id="@+id/radio_MedidaG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grama"
+            android:checked="true"/>
+
+        <RadioButton android:id="@+id/radio_MedidaKg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kilograma"/>
+    </RadioGroup>
+
+    <TextView android:id="@+id/textCategP"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/categoria"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText android:id="@+id/etCategProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:hint="Cobertura, embalagem"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="1">
+
+        <Button android:id="@+id/btAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:layout_weight="0.45" />
+
+        <Button android:id="@+id/btCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_weight="0.45" />
+    </LinearLayout>
+</LinearLayout>

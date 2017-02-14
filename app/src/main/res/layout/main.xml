@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center_vertical"
+    tools:context="com.sorveteria.eradogelo.sorveteriaeradogelo.Main">
+
+    <TextView android:id="@+id/sorv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:textSize="25dp" />
+
+    <Button android:id="@+id/btEstoque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/estoque"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp" />
+
+    <Button android:id="@+id/btPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pedidos"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp" />
+
+    <Button android:id="@+id/btFornecedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fornecedores"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp" />
+
+    <Button android:id="@+id/btSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp" />
+</LinearLayout>

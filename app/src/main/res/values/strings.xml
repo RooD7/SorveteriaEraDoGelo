@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Sorveteria Era Do Gelo</string>
+
+    <!-- Strings Menu !-->
+    <string name="sorv_name">Sorveteria Era do Gelo</string>
+    <string name="estoque">Estoque</string>
+    <string name="produtos">Produtos</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="fornecedores">Fornecedores</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="exit">Sair</string>
+
+    <!-- Strings menu_estoque !-->
+    <string name="add">Adicionar</string>
+    <string name="view">Ver</string>
+    <string name="del">Deletar</string>
+    <string name="repor">Repor</string>
+    <string name="baixa">Baixar</string>
+
+    <!-- Strings est_add_produto !-->
+    <string name="nome">Nome</string>
+    <string name="qntd">Quantidade</string>
+    <string name="categoria">Categoria</string>
+    <string name="medida">Medida</string>
+    <string name="qntdeMin">Quantidade Mínima</string>
+    <string name="qntdeAtual">Quantidade Atual</string>
+
+    <!-- Strings menu_pedido !-->
+    <string name="fazer">Fazer</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="kilograma">Kg</string>
+    <string name="grama">g</string>
+
+    <!-- Strings ActionBar !-->
+    <string name="estPrd">Estoque de Produtos</string>
+    <string name="actionSearch">Pesquisar</string>
+    <string name="actionRefresh">Atualizar</string>
+    <string name="actionSettings">Configurações</string>
+</resources>
