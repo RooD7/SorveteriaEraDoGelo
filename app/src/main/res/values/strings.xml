@@ -33,8 +33,31 @@
     <string name="grama">g</string>
 
     <!-- Strings ActionBar !-->
-    <string name="estPrd">Estoque de Produtos</string>
     <string name="actionSearch">Pesquisar</string>
     <string name="actionRefresh">Atualizar</string>
     <string name="actionSettings">Configurações</string>
+
+    <!-- Nome das telas !-->
+    <string name="labelMenu">Menu</string>
+    <string name="labelMenuEstoque">Menu Estoque</string>
+    <string name="labelMenuFornecedor">Menu Fornecedores</string>
+    <string name="labelMenuPedido">Menu Pedidos</string>
+    <string name="labelEstAddProduto">Adicionar Produto</string>
+    <string name="labelEstVerProduto">Estoque de Produtos</string>
+    <string name="labelEstRprProduto">Repor Produto</string>
+    <string name="labelEstBxrProduto">Baixa de produto</string>
+    <string name="labelEstDelProduto">Deletar Produto</string>
+
+    <!-- Spinner !-->
+    <string name="spinCategoria">Categoria Spin</string>
+
+    <!-- Alert Dialog !-->
+    <string name="alerDialTitleAddProd">Adicionar esse produto</string>
+    <string name="alerDialMsgAddProd">Confirmar?</string>
+    <string name="alerDialConfSim">Sim</string>
+    <string name="alerDialConfNao">Não</string>
+
+    <!-- Toast !-->
+    <string name="toastAddProd">Produto adicionado com sucesso!</string>
+    <string name="toastCancel">Cancelado.</string>
 </resources>
