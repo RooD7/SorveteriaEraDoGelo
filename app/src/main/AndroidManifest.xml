@@ -19,44 +19,44 @@
         </activity>
 
         <!-- Menu -->
-        <activity android:name=".MenuEstoque" android:parentActivityName=".Main">
+        <activity android:name=".MenuEstoque" android:label="@string/labelMenuEstoque" android:parentActivityName=".Main">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main" />
         </activity>
-        <activity android:name=".MenuPedido" android:parentActivityName=".Main">
+        <activity android:name=".MenuPedido" android:label="@string/labelMenuPedido" android:parentActivityName=".Main">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main" />
         </activity>
-        <activity android:name=".MenuFornecedor" android:parentActivityName=".Main">
+        <activity android:name=".MenuFornecedor" android:label="@string/labelMenuFornecedor" android:parentActivityName=".Main">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main" />
         </activity>
 
         <!-- Menu/MenuEstoque -->
-        <activity android:name=".EstAddProduto" android:parentActivityName=".MenuEstoque">
+        <activity android:name=".EstAddProduto" android:label="@string/labelEstAddProduto" android:parentActivityName=".MenuEstoque">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuEstoque" />
         </activity>
-        <activity android:name=".EstVerEstoque" android:parentActivityName=".MenuEstoque">
+        <activity android:name=".EstVerEstoque" android:label="@string/labelEstVerProduto" android:parentActivityName=".MenuEstoque">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuEstoque" />
         </activity>
-        <activity android:name=".EstReporEstoque" android:parentActivityName=".MenuEstoque">
+        <activity android:name=".EstReporEstoque" android:label="@string/labelEstRprProduto" android:parentActivityName=".MenuEstoque">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuEstoque" />
         </activity>
-        <activity android:name=".EstBaixarEstoque" android:parentActivityName=".MenuEstoque">
+        <activity android:name=".EstBaixarEstoque" android:label="@string/labelEstBxrProduto" android:parentActivityName=".MenuEstoque">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuEstoque" />
         </activity>
-        <activity android:name=".EstDelProduto" android:parentActivityName=".MenuEstoque">
+        <activity android:name=".EstDelProduto" android:label="@string/labelEstDelProduto" android:parentActivityName=".MenuEstoque">
             <!-- Compatiilidade com a API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuEstoque" />
