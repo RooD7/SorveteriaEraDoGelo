@@ -17,7 +17,6 @@
     <EditText android:id="@+id/etNomeProd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"
         android:inputType="textPersonName"
     android:hint="Nome do produto" />
 
@@ -31,14 +30,14 @@
     <EditText android:id="@+id/etQntdProd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"
         android:inputType="number"
         android:hint="Quantidade do produto"/>
 
-    <RadioGroup
+    <RadioGroup android:id="@+id/radio_Medida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
         <RadioButton android:id="@+id/radio_MedidaG"
             android:layout_width="wrap_content"
@@ -49,6 +48,7 @@
         <RadioButton android:id="@+id/radio_MedidaKg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:text="@string/kilograma"/>
     </RadioGroup>
 
@@ -60,12 +60,11 @@
         android:textSize="20dp"
         android:layout_marginTop="15dp"/>
 
-    <EditText android:id="@+id/etCategProd"
+    <Spinner android:id="@+id/spCategProd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:inputType="text"
-        android:hint="Cobertura, embalagem"/>
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/spinCategoria"/>
 
     <LinearLayout
         android:layout_width="match_parent"
